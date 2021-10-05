@@ -6,14 +6,16 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { Test1PageModule } from '../test1/test1.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Test1PageModule,
+    Tab1PageRoutingModule,
+
   ],
   declarations: [Tab1Page]
 })
